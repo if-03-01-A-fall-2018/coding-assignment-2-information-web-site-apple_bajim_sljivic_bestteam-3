@@ -29,6 +29,8 @@
   }
 }
 
+
+
 .ipad{
   margin-top: 10%;
   height:auto;
@@ -87,4 +89,34 @@
 .parallax{
   background-size: cover;
   height: 100vh;
+}
+
+.navimages{
+  max-height: 15vh;
+}
+
+.imac{
+  margin-top: 10%;
+  height:85%;
+}
+
+.macbook{
+  margin-top: 10%;
+  height:95%;
+}
+
+.productnav{
+  height: 22vh;
+}
+
+.bg-dark{
+  background-color: rgba(0, 0, 0, .85)!important;
+}
+
+.icondescription{
+  margin-top: 2vh;
+  color: #000;
+  font-weight: lighter;
+  font-size: 2vh;
+  text-align: center;
 }
