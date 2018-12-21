@@ -28,9 +28,6 @@
     flex: 1;
   }
 }
-
-
-
 .ipad{
   margin-top: 10%;
   height:auto;
@@ -122,4 +119,11 @@
   font-weight: lighter;
   font-size: 2vh;
   text-align: center;
+}
+
+.timeline dt{
+  font-size: 150%;
+}
+.content{
+  padding-left: 2vw;
 }
