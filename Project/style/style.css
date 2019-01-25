@@ -34,6 +34,10 @@
   width: 100%;
 }
 
+.macbook1{
+  background: url('../images/macbook1.png') no-repeat fixed;
+}
+
 .marketing{
   margin-top: 10%;
   height:auto;
@@ -81,10 +85,18 @@
     background: url('../images/ElCapitan2.png') no-repeat fixed;
 }
 
+.imac1{
+  background: url('../images/imac1.PNG') no-repeat fixed;
+  background-size: cover;
+}
+
+.applewatch{
+  margin-top: 10%;
+  height:85%;
+}
 .overflow-hidden { overflow: hidden; }
 
 .parallax{
-  background-size: cover;
   height: 100vh;
 }
 
@@ -126,4 +138,13 @@
 }
 .content{
   padding-left: 2vw;
+  border-left: 6px solid black;
+  height: 100%;
+  position: inherit;
+  margin-left: 6%;
+}
+
+.apps{
+  margin-top: 10%;
+  height:95%;
 }
