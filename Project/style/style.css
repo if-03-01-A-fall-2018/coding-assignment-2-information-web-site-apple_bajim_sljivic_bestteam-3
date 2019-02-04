@@ -66,23 +66,29 @@
 
 .sierranevada{
     background: url('../images/SierraNevada.png') no-repeat fixed;
+    background-size: cover;
 }
 
 .elcapitan{
     background: url('../images/ElCapitan.png') no-repeat fixed;
+    background-size: cover;
 }
 
 .yosemite{
     background: url('../images/Yosemite.png') no-repeat fixed;
+    background-size: cover;
 }
 .yosemite3{
     background: url('../images/Yosemite3.png') no-repeat fixed;
+    background-size: cover;
 }
 .yosemite4{
     background: url('../images/Yosemite4.png') no-repeat fixed;
+    background-size: cover;
 }
 .elcapitan2{
     background: url('../images/ElCapitan2.png') no-repeat fixed;
+    background-size: cover;
 }
 
 .imac1{
@@ -94,10 +100,12 @@
   margin-top: 10%;
   height:85%;
 }
+
 .overflow-hidden { overflow: hidden; }
 
 .parallax{
   height: 100vh;
+
 }
 
 .navimages{
