@@ -156,3 +156,10 @@
   margin-top: 10%;
   height:95%;
 }
+//anfang
+.emina{
+  float: left;
+}
+.apps_body{
+  background-image: radial-gradient(ellipse, white, black);
+}
