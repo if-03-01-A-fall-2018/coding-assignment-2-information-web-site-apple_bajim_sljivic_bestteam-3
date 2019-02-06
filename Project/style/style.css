@@ -13,29 +13,32 @@
   color: #999;
   transition: ease-in-out color .15s;
 }
+
 .site-header a:hover {
   color: #fff;
   text-decoration: none;
+}
+
+#timeline > li{
+  margin-left: -26.5px;
 }
 
 .flex-equal > * {
   -ms-flex: 1;
   flex: 1;
 }
+
 @media (min-width: 768px) {
   .flex-md-equal > * {
     -ms-flex: 1;
     flex: 1;
   }
 }
+
 .ipad{
   margin-top: 10%;
   height:auto;
   width: 100%;
-}
-
-.macbook1{
-  background: url('../images/macbook1.png') no-repeat fixed;
 }
 
 .marketing{
@@ -50,6 +53,7 @@
   text-align: center;
   font-family: Luna;
   color: #000;
+  font-weight: 600;
 }
 
 .iphone{
@@ -65,35 +69,29 @@
 }
 
 .sierranevada{
-    background: url('../images/SierraNevada.png') no-repeat fixed;
+    background: url('../images/backgrounds/SierraNevada.png') no-repeat fixed;
     background-size: cover;
 }
 
 .elcapitan{
-    background: url('../images/ElCapitan.png') no-repeat fixed;
+    background: url('../images/backgrounds/ElCapitan.png') no-repeat fixed;
     background-size: cover;
 }
-
 .yosemite{
-    background: url('../images/Yosemite.png') no-repeat fixed;
+    background: url('../images/backgrounds/Yosemite.png') no-repeat fixed;
     background-size: cover;
 }
 .yosemite3{
-    background: url('../images/Yosemite3.png') no-repeat fixed;
+    background: url('../images/backgrounds/Yosemite3.png') no-repeat fixed;
     background-size: cover;
 }
 .yosemite4{
-    background: url('../images/Yosemite4.png') no-repeat fixed;
+    background: url('../images/backgrounds/Yosemite4.png') no-repeat fixed;
     background-size: cover;
 }
 .elcapitan2{
-    background: url('../images/ElCapitan2.png') no-repeat fixed;
+    background: url('../images/backgrounds/ElCapitan2.png') no-repeat fixed;
     background-size: cover;
-}
-
-.imac1{
-  background: url('../images/imac1.PNG') no-repeat fixed;
-  background-size: cover;
 }
 
 .applewatch{
@@ -115,6 +113,13 @@
 .imac{
   margin-top: 10%;
   height:85%;
+}
+
+.text{
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
 }
 
 .macbook{
@@ -141,25 +146,15 @@
   text-align: center;
 }
 
-.timeline dt{
-  font-size: 150%;
-}
 .content{
-  padding-left: 2vw;
-  border-left: 6px solid black;
+  border-left: 3px solid black;
   height: 100%;
   position: inherit;
   margin-left: 6%;
+  margin-right: 0;
 }
 
 .apps{
   margin-top: 10%;
   height:95%;
-}
-//anfang
-.emina{
-  float: left;
-}
-.apps_body{
-  background-image: radial-gradient(ellipse, white, black);
 }
